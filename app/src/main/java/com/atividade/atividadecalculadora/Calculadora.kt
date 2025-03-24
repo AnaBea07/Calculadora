@@ -59,7 +59,7 @@ fun CalculatorView() {
             } else if (operador == "*") {
                 result = num1 * num2
             } else if (operador == "/") {
-                result = if (num2 != 0) num1 / num2 else 0 // Evitando divisão por zero
+                result = if (num2 != 0) num1 / num2 else 0 
             }
 
             displayCalculadora = result.toString()
